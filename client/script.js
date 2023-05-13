@@ -78,7 +78,7 @@ const handleSubmit = async (e) => {
 
   // Fetch data from server -> bot's response
 
-  const response = await fetch('https://chatai-api.nivash.eu.org', {
+  const response = await fetch('https://xi11a-chatai.onrender.com', {
     method: "POST",
     headers: {
       'Content-Type': 'application/json'
