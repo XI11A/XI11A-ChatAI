@@ -14,7 +14,8 @@ const openai = new OpenAIApi(configuration);
 const app = express();
 
 app.use(cors({
-    origin: "https://chatai.nivash.eu.org/"
+    origin: "https://chatai.nivash.eu.org",
+    optionsSuccessStatus: 200
 }));
 app.use(express.json());
 
